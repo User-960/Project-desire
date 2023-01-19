@@ -5,4 +5,13 @@ $(function () {
   $('.rightside-menu__close').on('click', function () {
     $('.rightside-menu').addClass('rightside-menu--close')
   });
+
+  $('.top__slider').slick({
+    arrows: false,
+    dots: true,
+    fade: true,
+    autoplay: true,
+    autoplaySpeed: 3000,
+  });
+
 })
