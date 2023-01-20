@@ -376,3 +376,35 @@
     color: #707070;
   }
 }
+
+.decor {
+  padding: 172px 0 156px;
+  background-image: url(../images/decor-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 600px;
+  &__title {
+    max-width: 530px;
+    color: $title;
+    @extend %title-font;
+    font-size: 60px;
+    line-height: 80px;
+    padding-bottom: 22px;
+    margin-bottom: 21px;
+    position: relative;
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 200px;
+      height: 1px;
+      background-color: #6D7278;
+      border-radius: 0.5px;
+    }
+  }
+  &__text {
+    max-width: 530px;
+    color: $default;
+  }
+}
