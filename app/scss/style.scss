@@ -977,6 +977,50 @@
   }
 }
 
+.blog-one__item {
+  p {
+    margin-bottom: 40px;
+  }
+  blockquote {
+    font-style: italic;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 38px;
+    color: $title;
+    margin-bottom: 30px;
+    padding: 0 40px;
+  }
+  .blog__blockquote-author::after {
+    margin-right: auto;
+    margin-left: 0;
+  }
+}
+
+.blog-one {
+  &__tags {
+    margin-bottom: 30px;
+  }
+  &__tags-title {
+    line-height: 23px;
+    color: $title;
+    @extend %title-font;
+    margin-bottom: 14px;
+  }
+  &__tags-link {
+    display: inline-block;
+    padding: 0 16px;
+    margin-right: 23px;
+    margin-bottom: 10px;
+    background-color: transparent;
+    border: 1px solid rgba(#454647, .5);
+    border-radius: 14px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #8F8D8D;
+    cursor: pointer;
+  }
+}
+
 .aside {
   width: 350px;
   margin-left: 30px;
