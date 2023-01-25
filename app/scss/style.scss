@@ -1087,7 +1087,8 @@
   &__tags {
     margin-bottom: 50px;
   }
-  &__tags-btn {
+  &__tags-link {
+    display: inline-block;
     padding: 0 16px;
     margin-bottom: 10px;
     margin-right: 10px;
