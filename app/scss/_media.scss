@@ -1,3 +1,12 @@
+@media (max-width: 1366px) {
+  .collection {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .collection__image {
+    width: 100%;
+  }
+}
+
 @media (max-width: 1200px) {
   .top__slider-title {
     font-size: 62px;
@@ -24,6 +33,9 @@
   }
   .top__slider-img {
     height: 540px;
+  }
+  .collection {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
@@ -56,6 +68,9 @@
   .footer__social {
     margin-left: auto;
     margin-right: auto;
+  }
+  .decor {
+    padding: 70px 0 55px;
   }
 }
 
@@ -120,6 +135,17 @@
  .menu__list-link {
   display: block;
   padding: 15px 0;
+ }
+ .new-collection__title {
+   font-size: 28px;
+   line-height: 36px;
+ }
+ .collection {
+   grid-template-columns: repeat(1, 1fr);
+ }
+ %title-font {
+   font-size: 28px;
+   line-height: 36px;
  }
 }
 

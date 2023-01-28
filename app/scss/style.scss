@@ -406,7 +406,7 @@
   background-image: url(../images/decor-bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 600px;
+  max-height: 600px;
   &__title {
     max-width: 530px;
     color: $title;
