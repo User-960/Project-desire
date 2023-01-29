@@ -215,6 +215,10 @@
   display: block;
   padding: 15px 0;
  }
+ .menu__list-link--active::after {
+    left: 115px;
+    right: 115px;
+  }
  .new-collection__title {
    font-size: 28px;
    line-height: 36px;
