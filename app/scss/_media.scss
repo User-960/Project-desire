@@ -251,8 +251,12 @@
    grid-template-columns: repeat(1, 1fr);
  }
  .gallery__item:first-child {
-   grid-column: span 1;
-   grid-row: span 1;
+   grid-column: 1;
+   grid-row: 1;
+ }
+ .gallery.gallery-page .gallery__item:nth-child(8) {
+  grid-column: 1;
+  grid-row: 1;
  }
  .partners__items {
    grid-template-columns: repeat(3, 1fr);
