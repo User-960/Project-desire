@@ -227,7 +227,10 @@
  }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 392px) {
+  .top__slider-text {
+    max-width: 310px;
+  }
   .footer__inner {
     justify-content: space-between;
   }
