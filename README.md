@@ -10,7 +10,6 @@ What is used:
 
 Get started:
 
-- Switch to branch master in GitHub;
 - Clone repository: git clone https://github.com/User-960/Project-desire.git;
 - Install packages: npm install;
 - Development mode: gulp;
