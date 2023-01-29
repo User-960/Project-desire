@@ -451,12 +451,12 @@
     &::before {
       content: '';
       position: absolute;
-      bottom: -5px;
+      bottom: -6px;
       left: 0;
       width: 10px;
       height: 10px;
       border-radius: 50%;
-      background: rgba($title, .7);;
+      background: rgba($title, 1);
     }
   }
   &__item {
