@@ -25,8 +25,59 @@ $(function () {
   $('.contact__slider').slick({
     arrows: false,
     dots: true,
-    slidesToShow: 8,
-    slidesToScroll: 8
+    slidesToShow: 10,
+    slidesToScroll: 10,
+    responsive: [
+      {
+        breakpoint: 1700,
+        settings: {
+          slidesToShow: 8,
+          slidesToScroll: 8,
+        }
+      },
+      {
+        breakpoint: 1511,
+        settings: {
+          slidesToShow: 7,
+          slidesToScroll: 7,
+        }
+      },
+      {
+        breakpoint: 1201,
+        settings: {
+          slidesToShow: 6,
+          slidesToScroll: 6,
+        }
+      },
+      {
+        breakpoint: 881,
+        settings: {
+          slidesToShow: 5,
+          slidesToScroll: 5,
+        }
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 4,
+        }
+      },
+      {
+        breakpoint: 651,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+        }
+      },
+      {
+        breakpoint: 541,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+        }
+      }
+    ]
   });
 
   $('.article-slider__box').slick({
