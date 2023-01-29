@@ -213,11 +213,12 @@
  }
  .menu__list-link {
   display: block;
-  padding: 15px 0;
+  padding: 14px 0;
  }
  .menu__list-link--active::after {
     left: 115px;
     right: 115px;
+    height: 3px;
   }
  .new-collection__title {
    font-size: 28px;
