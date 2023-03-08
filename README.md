@@ -4,10 +4,10 @@ The main purpose of the project is to practice make site and use task runner Gul
 
 What is used:
 
-Programming languages: HTML, CSS, JavaScript;
-Task runner: Gulp;
-Preprocessor: SCSS;
-Libraries: jQuery, Slick, Fancyapps, MixItUp;
+- Programming languages: HTML, CSS, JavaScript;
+- Task runner: Gulp;
+- Preprocessor: SCSS;
+- Libraries: jQuery, Slick, Fancyapps, MixItUp;
 
 To clone repository
 
